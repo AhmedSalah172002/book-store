@@ -1,0 +1,232 @@
+
+  body {
+    font-family: "Roboto", sans-serif;
+    user-select: none;
+    
+  }
+  .navbar{
+    background-color: #dd2476;
+    
+  }
+  .navbar-nav li a{
+    color: white;
+  }
+  
+  .navbar .navbar-nav .nav-link:focus,
+  .navbar .navbar-nav .nav-link:hover{
+    color: blue;
+  }
+  .navbar-toggler .fa-bars{
+    color: white;
+    
+}
+.landing{
+  background-image: linear-gradient(to bottom, #dd2476, #ff512f);
+  min-height: calc(100vh - 43.2px);
+}
+.text{
+  color: white;
+  
+}
+.description{
+
+ padding: 80px 0 30px;
+}
+.description img{
+  height: 80%;
+}
+.des{
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: 6px;
+  padding: 100px 70px ;
+  transform: translateX(-80px);
+  z-index: 5;
+  background-color: white;
+}
+@media (max-width:767.9px) {
+  .des{
+    transform: translateX(0);
+    margin-top: 20px;
+  }
+  
+}
+
+.prices .bg{
+  width: 100%;
+  height: 55vh;
+  background-image: url("../images/hd-wallpaper-2638126.jpg");
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+  background-position: center; 
+  background-size:inherit ;
+  position: relative;
+}
+.overlay{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: .5;
+
+}
+.prices .row{
+  z-index: 10;
+  transform: translate(0%,-95px);
+}
+.prices .row .counter{
+  background-color: white;
+  padding: 25px 10px;
+  border-radius: 6px;
+  box-shadow: 1px 2px 50px 0px rgb(255 0 0 / 35%);
+  margin-bottom: 25px;
+  
+}
+.prices .row .counter h2{
+  color: #ff512f;
+  font-size: 4em;
+}
+.prices .row .counter h5 {
+  font-size: .9em;
+}
+.purchase{
+  margin: 15px 0;
+  z-index: 5;
+  color: #000000;
+}
+.purchase .def h2{
+  font-size: 2.5em;
+  font-family: "lobster", "cursive";
+}
+
+.purchase .card{
+  text-align: center;
+  border: 1px solid black;
+  margin: 150px 0  20px;
+}
+.purchase .card .title{
+  background-color: rgb(246 252 252);
+  padding: 15px 0;
+}
+.purchase .card .card-text{
+  margin: 20px 0;
+  padding: 15px 25px;
+}  
+
+.purchase .card .card-price{
+  background: rgba(208, 241, 241, 0.199);
+    border-top-right-radius: 170px;
+    border-top-left-radius: 170px;
+    padding: 100px 25px;
+}
+.purchase .card .card-price h2{
+  font-size: 4em;
+  margin-bottom: 50px;
+}
+.btn1{
+  background-color: rgb(52 58 64);
+  color: white;
+  padding: 5px 20px;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+.btn1:hover{
+  background-color: rgb(30, 33, 36);
+  transition: .3s;
+}
+.download{
+  background-image: linear-gradient(to bottom, #dd2476, #ff512f);
+  
+  
+}
+.contents{
+  
+  color: white;
+  padding: 60px;
+  
+}
+.btn2 {
+  margin-top: 50px;
+  background-color: white;
+  color: black;
+  font-size: 2em;
+  padding: 5px 20px;
+  font-weight: 500;
+  transition: .3s;
+}
+.btn2:hover{
+  background-color: #000000;
+  color: white;
+}
+.con-reader{
+  margin-bottom: 15px;
+  padding: 15px 20px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+.reader-text a{
+  font-size: 1.5em;
+  color: black !important;
+  text-decoration: none !important;
+  margin-bottom: 15px;
+
+}
+.img-reader{
+  width: 80%;
+  margin: 0 auto;
+}
+.img-reader-1{
+  width: 55%;
+  margin: 0 auto;
+}
+.img-reader-1 img{
+  border-radius: 150px;
+}
+.img-reader img{
+  border-radius: 150px;
+}
+
+
+
+footer {
+  background: rgba(0, 0, 0, 0.815);
+  overflow-x: hidden;
+  padding: 14vmin 18vmin;
+}
+
+footer p > span {
+  color: #ff512f;
+}
+
+footer input {
+  border: none !important;
+}
+
+footer input::placeholder {
+  color: white !important;
+}
+
+footer .input-group .input-group-text {
+  height: 100%;
+  background: linear-gradient(to bottom, #dd2476, #ff512f);
+  border: none;
+}
+
+footer .column svg {
+  margin-right: 15px;
+  cursor: pointer;
+  color: #dd2476;
+}
+
+
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.815);
+  z-index: 9999;
+  transition: all 1.5s ease;
+}
